@@ -27,6 +27,7 @@ class PostsController < ApplicationController
     		redirect_to @post
     	else
     		render 'edit'
+    	end
     	
     end
     private
