@@ -1,0 +1,12 @@
+<div class="wrap" style="margin-left:30px;margin-top:70px">
+<h1 class="title" style="color:blue">
+<%= @post.title%>
+</h1>
+
+<p class="date">
+     Submitted <%= time_ago_in_words(@post.created_at) %> ago
+</p>
+<p>
+  <%= @post.text %>
+</p>
+</div>
