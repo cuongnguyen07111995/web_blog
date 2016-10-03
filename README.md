@@ -43,6 +43,7 @@ Các chuẩn đầu ra cần thực hiện:
 * [X] Git theo Feature Branch Workflow
 * [ ] Git theo Feature Branch Workflow có Pull Request
 * [ ] Git theo Gitflow Workflow
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
