@@ -3,6 +3,7 @@
 <%if @post.errors.any? %>
 <div id="errors">
 <h2>
+	
 </h2>
 <ul>
 	<% @post.errors.full_messages.each do |msg|%>
@@ -11,6 +12,7 @@
 </ul>
 	
 </div>
+<% end %>
 <div class="modal-dialog">
     <div class="modal-content">
     <h1 style="margin-left:20px;color:blue">New Post</h1>

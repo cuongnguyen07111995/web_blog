@@ -1,0 +1,36 @@
+<%= form_for @post do |f| %>
+<%if @post.errors.any? %>
+<div id="errors">
+<h2>
+	
+</h2>
+<ul>
+	<% @post.errors.full_messages.each do |msg|%>
+	   <li><%= msg%></li>
+	<%end %>
+</ul>
+	
+</div>
+<% end %>
+<div class="modal-dialog">
+    <div class="modal-content">
+    <h1 style="margin-left:20px;color:blue">Edit Post</h1>
+      <div class="modal-header">
+      <p>
+      <%= f.label :title %><br>
+       <%= f.text_field :title %>
+     </p>
+      </div>
+      <div class="modal-body">
+        <p>
+    <%= f.label :text %><br>
+    <%= f.text_area :text %>
+  </p>
+      </div>
+      <div class="modal-footer">
+         <%= f.submit %>
+      </div>
+    </div><!-- /.modal-content -->
+
+  </div><!-- /.modal-dialog -->
+ <% end %>
