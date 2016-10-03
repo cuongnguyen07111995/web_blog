@@ -1,0 +1,12 @@
+<div class="taomoi">><a href="posts/new">tao moi</a></div>
+
+<% @posts.each do |post| %>
+<div class="col-md-4">
+   <h1 class="title"> <%= post.title %></h1>
+   <p class="date"><%= post.created_at.strftime("%B, %d, %Y")%></p>
+    <p class="body"><%= post.text %></p>
+    <p><label class="btn btn-default" role="button"><%= link_to 'View details',post_path(post) %>&raquo;</label> </p>
+</div>
+</div>
+<% end %>
+
