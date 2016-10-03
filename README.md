@@ -10,7 +10,7 @@ URL: **Insert your Heroku URL here**
 
 Danh sách chức năng **bắt buộc**:
 
-* [ ] Người dùng có thể tạo bài blog mới.
+* [X] Người dùng có thể tạo bài blog mới.
 * [ ] Người dùng có thể cập nhật lại nội dung bài blog.
 * [ ] Người dùng có thể thêm comment vào các bài đăng.
 * [X] Sử dụng bootstrap để tạo layout cho trang web. Sử dụng [Bootstrap](https://rubygems.org/gems/bootstrap/versions/4.0.0.alpha3).
@@ -39,8 +39,8 @@ Danh sách chức năng **thêm** đã làm nhưng chưa được liệt kê ở
 Danh sách chức năng **phụ** đã làm nhưng không được liệt kê ở trên:
 
 Các chuẩn đầu ra cần thực hiện:
-* [ ] Git với Centralize Workflow
-* [ ] Git theo Feature Branch Workflow
+* [X] Git với Centralize Workflow
+* [X] Git theo Feature Branch Workflow
 * [ ] Git theo Feature Branch Workflow có Pull Request
 * [ ] Git theo Gitflow Workflow
 ## Video Walkthrough
