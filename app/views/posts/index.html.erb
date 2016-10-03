@@ -1,5 +1,20 @@
-<div class="taomoi">><a href="posts/new">tao moi</a></div>
 
+<div class="">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <input class="modal-title" type="text">Modal title</input>
+      </div>
+      <div class="modal-body">
+        <p>One fine body&hellip;</p>
+      </div>
+      <img src="" src="">
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Post</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 <% @posts.each do |post| %>
 <div class="col-md-4">
    <h1 class="title"> <%= post.title %></h1>
